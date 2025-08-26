@@ -19,7 +19,101 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    /* Basic Options */
+    // "allowJs": false, // Разрешить компилировать файлы .js
+    // "checkJs": false, // Проверять файлы .js на ошибки
+    // "declaration": false, // Генерировать .d.ts файлы
+    // "declarationMap": false, // Генерировать sourcemap для .d.ts
+    // "emitDeclarationOnly": false, // Только .d.ts, не .js
+    // "incremental": false, // Инкрементальная компиляция
+    // "tsBuildInfoFile": "./.tsbuildinfo", // Путь к файлу build info
+    // "composite": false, // Для проектов с зависимостями
+    // "outDir": "./dist", // Каталог для вывода файлов
+    // "outFile": "./bundle.js", // Объединить всё в один файл
+    // "rootDir": "./src", // Корень исходников
+    // "removeComments": false, // Удалять комментарии
+    // "sourceMap": false, // Генерировать sourcemap
+    // "inlineSourceMap": false, // Встраивать sourcemap в .js
+    // "inlineSources": false, // Встраивать исходники в sourcemap
+    // "declarationDir": "./types", // Каталог для .d.ts
+    // "mapRoot": "./maps", // Каталог для sourcemap
+    // "sourceRoot": "./src", // Корень исходников для sourcemap
+    // "noEmitHelpers": false, // Не генерировать вспомогательные функции
+    // "importHelpers": false, // Использовать tslib для helpers
+    // "downlevelIteration": false, // Корректная итерация для старых target
+    // "isolatedModules": false, // Каждый файл как отдельный модуль
+
+    /* Strict Type-Checking Options */
+    // "alwaysStrict": false, // Включить strict mode в js
+    // "strictBindCallApply": true, // Строгая типизация bind/call/apply
+    // "strictFunctionTypes": true, // Строгая проверка типов функций
+    // "strictNullChecks": true, // null/undefined только там, где явно разрешено
+    // "strictPropertyInitialization": true, // Инициализация свойств класса
+    // "useUnknownInCatchVariables": false, // catch переменные типа unknown
+
+    /* Additional Checks */
+    "noImplicitAny": true, // Запретить неявный any
+    // "noImplicitThis": true, // Запретить неявный this
+    // "noImplicitReturns": false, // Все пути функции должны возвращать значение
+    // "noPropertyAccessFromIndexSignature": false, // Запретить доступ к свойствам через индексную сигнатуру
+    // "noUncheckedIndexedAccess": true, // Все обращения по индексу могут быть undefined (Example: const arr = [1, 2, 3]; a[0]:string|undefined)
+    // "noUnusedLabels": false, // Запретить неиспользуемые метки
+    // "exactOptionalPropertyTypes": false, // ?-свойства только undefined, не отсутствуют
+
+    /* Module Resolution Options */
+    // "baseUrl": "./", // Базовый путь для модулей
+    // "paths": {}, // Переопределение путей модулей
+    // "rootDirs": [], // Несколько корней исходников
+    // "typeRoots": [], // Каталоги для типов
+    // "types": [], // Явно подключаемые типы
+    // "allowUmdGlobalAccess": false, // Доступ к глобалам UMD
+    // "resolveJsonModule": false, // Импортировать .json как модули
+    // "esModuleInterop": false, // Совместимость с CommonJS
+    // "preserveSymlinks": false, // Не разрешать симлинки
+    // "forceConsistentCasingInFileNames": false, // Проверять регистр файлов
+
+    /* Experimental Options */
+    // "experimentalDecorators": false, // Декораторы
+    // "emitDecoratorMetadata": false, // Метаданные для декораторов
+
+    /* Advanced Options */
+    // "noLib": false, // Не подключать стандартные библиотеки
+    // "disableSizeLimit": false, // Отключить лимит размера проекта
+    // "stripInternal": false, // Удалять @internal из .d.ts
+    // "noErrorTruncation": false, // Не обрезать сообщения об ошибках
+    // "preserveConstEnums": false, // Не удалять const enums
+    // "assumeChangesOnlyAffectDirectDependencies": false, // Для ускорения watch mode
+    // "keyofStringsOnly": false, // Ограничить keyof только строками (устарело)
+    // "plugins": [], // Плагины для редакторов
+
+    /* Watch Options */
+    // "watch": false, // Включить watch mode
+    // "preserveWatchOutput": false, // Не очищать консоль при пересборке
+    // "suppressOutputPathCheck": false, // Не проверять пути вывода
+    // "allowUnreachableCode": false, // Разрешить недостижимый код
+    // "allowUnusedLabels": false, // Разрешить неиспользуемые метки
+
+    /* Project References */
+    // "references": [], // Ссылки на другие проекты
+
+    /* Other */
+    // "charset": "utf8", // Кодировка файлов (устарело)
+    // "locale": "ru", // Язык сообщений компилятора
+    // "diagnostics": false, // Диагностика компиляции
+    // "listFiles": false, // Список файлов в компиляции
+    // "listEmittedFiles": false, // Список сгенерированных файлов
+    // "traceResolution": false, // Трассировка резолва модулей
+    // "extendedDiagnostics": false, // Расширенная диагностика
+    // "explainFiles": false, // Объяснить почему файл включён
+    // "generateCpuProfile": false, // Профилирование компилятора
+    // "disableReferencedProjectLoad": false, // Не загружать referenced проекты
+    // "noEmitOnError": false, // Не эмитить при ошибках
+    // "pretty": true, // Красивый вывод ошибок
+    // "skipDefaultLibCheck": false, // Не проверять стандартные библиотеки
+    // "suppressExcessPropertyErrors": false, // Подавлять ошибки лишних свойств
+    // "suppressImplicitAnyIndexErrors": false, // Подавлять ошибки any для индексации
+    // "useDefineForClassFields": true, // Уже задано выше
   },
   "include": ["src"]
 }
